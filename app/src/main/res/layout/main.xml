@@ -20,44 +20,40 @@
         android:orientation="horizontal">
 
 
-        <Button
-            android:id="@+id/btn1"
+        <ImageButton
+            android:id="@+id/btnRead"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_margin="8dp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
+            android:background="@null"
             android:gravity="center"
             android:onClick="btnRead"
-            android:text="Read"
-            android:textColor="@android:color/white" />
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_selector_read" />
 
 
-        <Button
-            android:id="@+id/btn2"
+        <ImageView
+            android:id="@+id/btnWrite"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_margin="8dp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
             android:gravity="center"
-            android:text="Write"
-            android:textColor="@android:color/white" />
+            android:src="@drawable/write" />
 
 
-        <Button
-            android:id="@+id/btn3"
+        <ImageView
+            android:id="@+id/btnHistory"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_margin="8dp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
             android:gravity="center"
-            android:text="History"
-            android:textColor="@android:color/white" />
+            android:src="@drawable/history" />
 
 
     </LinearLayout>
